@@ -14,7 +14,7 @@ class CountBy extends Component {
 
     handleClick() {
         this.setState({
-         count: this.state.count + this.props.step,
+         count: this.state.count + +this.props.step,
         });
     }
 
